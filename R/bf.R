@@ -3,7 +3,7 @@ json_prevision <- "http://www.bison-fute.gouv.fr/previsions/previsions.json"
 only_departements <- seq_len(94)
 
 get_prevision_json <- function(json = json_prevision) {
-  jsonlite::fromJSON(json_prevision)
+  jsonlite::fromJSON(json)
 }
 
 
@@ -19,7 +19,7 @@ get_prevision_json <- function(json = json_prevision) {
 #' @importFrom purrr map modify_depth simplify_all
 #' @export
 get_all_previsions_available <- function() {
-  res <- get_prevision_json(json)
+  res <- get_prevision_json()
   prev_bf <- tibble::tibble(
     days = res$days,
     depts = list(res$deptsLine[only_departements]),
@@ -33,3 +33,5 @@ get_all_previsions_available <- function() {
     tidyr::unnest()
   prev_bf
 }
+
+
