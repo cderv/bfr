@@ -11,3 +11,5 @@ Description: Functions to easily get data from Bison Fute (www.bison-fute.gouv.f
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/cderv/bfr
+BugReports: https://github.com/cderv/bfr/issues
