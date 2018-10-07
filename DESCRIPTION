@@ -15,6 +15,9 @@ URL: https://github.com/cderv/bfr
 BugReports: https://github.com/cderv/bfr/issues
 Imports: 
     jsonlite,
-    magrittr
+    magrittr,
+    tibble,
+    tidyr,
+    purrr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.0
