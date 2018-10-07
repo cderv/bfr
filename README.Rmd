@@ -1,0 +1,35 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# bfr
+
+bfr `r emo::ji("package")` contains a set of function to retrieve data about french traffic, published on http://www.bison-fute.gouv.fr 
+
+## Installation
+
+You can install the latest version of bfr from github with:
+
+``` r
+devtools::install_github("cderv/bfr)
+```
+
+## Example
+
+### Get all the prevision 
+```{r get-all-data}
+library(bfr)
+all_prev <- get_all_previsions_available()
+head(all_prev)
+```
+

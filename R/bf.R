@@ -17,6 +17,7 @@ get_prevision_json <- function(json = json_prevision) {
 #' @importFrom tibble tibble
 #' @importFrom tidyr unnest
 #' @importFrom purrr map modify_depth simplify_all
+#' @export
 get_all_previsions_available <- function() {
   res <- get_prevision_json(json)
   prev_bf <- tibble::tibble(
