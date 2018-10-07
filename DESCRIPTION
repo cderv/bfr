@@ -1,0 +1,13 @@
+Package: bfr
+Title: Get data about french traffic prevision
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Christophe",
+           family = "Dervieux",
+           role = c("aut", "cre"),
+           email = "christophe.dervieux@gmail.com")
+Description: Functions to easily get data from Bison Fute (www.bison-fute.gouv.fr), 
+    french public service about traffic prevision.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
