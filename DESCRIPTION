@@ -13,3 +13,7 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/cderv/bfr
 BugReports: https://github.com/cderv/bfr/issues
+Imports: 
+    jsonlite
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.0
