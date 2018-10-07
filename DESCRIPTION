@@ -14,6 +14,7 @@ LazyData: true
 URL: https://github.com/cderv/bfr
 BugReports: https://github.com/cderv/bfr/issues
 Imports: 
-    jsonlite
+    jsonlite,
+    magrittr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.0
